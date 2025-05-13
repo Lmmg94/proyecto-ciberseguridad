@@ -44,3 +44,235 @@ h2{
     font-size: 50px;
     font-family: ;
 }
+
+
+
+ .diferentes-noticias {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+ }
+ .noticia{
+    background-color:mistyrose;
+    border: 1px solid #ddd;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 0;
+    margin: 1%;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+ }
+.grid {
+display: grid;
+gap: 20px;
+grid-template:
+"h2"
+"Curiosidades" 900px
+"curiosidad1" 200px
+"curiosidad2" 200px
+"curiosidad3" 200px
+"curiosidad4" 200px
+"curiosidad5" 200px
+"curiosidad6" 200px
+"curiosidad7" 200px
+"curiosidad8" 200px
+"curiosidad9" 200px
+"noticia1" 500px
+"noticia2" 500px
+"noticia3" 500px 
+"Footer" 100px 
+;
+.Curiosidades {
+  grid-area: Curiosidades;
+    background-color:rgb(245, 213, 224);
+    border: 1px solid #ddd;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 0;
+    margin: 1%;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);  
+}
+
+.curiosidad1 {
+  grid-area: curiosidad1;
+    background-color:lavenderblush;
+    border: 1px solid #ddd;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 0;
+    margin: 1%;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);  
+}
+
+.curiosidad2 {
+  grid-area: curiosidad2;
+    background-color:lavenderblush;
+    border: 1px solid #ddd;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 0;
+    margin: 1%;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);  
+}
+.curiosidad3 {
+  grid-area: curiosidad3;
+    background-color:lavenderblush;
+    border: 1px solid #ddd;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 0;
+    margin: 1%;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);  
+}
+.curiosidad4 {
+  grid-area: curiosidad4;
+    background-color:lavenderblush;
+    border: 1px solid #ddd;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 0;
+    margin: 1%;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);  
+}
+.curiosidad5 {
+  grid-area: curiosidad5;
+    background-color:lavenderblush;
+    border: 1px solid #ddd;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 0;
+    margin: 1%;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);  
+}
+.curiosidad6 {
+  grid-area: curiosidad6;
+    background-color:lavenderblush;
+    border: 1px solid #ddd;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 0;
+    margin: 1%;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);  
+}
+.curiosidad7 {
+  grid-area: curiosidad7;
+    background-color:lavenderblush;
+    border: 1px solid #ddd;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 0;
+    margin: 1%;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);  
+}
+.curiosidad8 {
+  grid-area: curiosidad8;
+    background-color:lavenderblush;
+    border: 1px solid #ddd;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 0;
+    margin: 1%;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);  
+}
+.curiosidad9 {
+  grid-area: curiosidad9;
+    background-color:lavenderblush;
+    border: 1px solid #ddd;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 0;
+    margin: 1%;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);  
+}
+
+
+.noticia1{
+    grid-area: noticia1;
+    background-color:mistyrose;
+    border: 1px solid #ddd;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 0;
+    margin: 1%;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.noticia2{
+    grid-area: noticia2;
+    background-color:rgb(255, 217, 212);
+    border: 1px solid #ddd;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 0;
+    margin: 1%;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.noticia3{
+    grid-area: noticia3;
+    background-color:rgb(247, 201, 195);
+    border: 1px solid #ddd;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 0;
+    margin: 1%;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.Footer{
+    grid-area: Footer;
+    background-color:rgb(247, 201, 195);
+    border: 1px solid #ddd;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 0;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-top:20px; 
+}
+
+@media screen (min-width: 768px;) { 
+    grid-template:
+    "Curiosidades" 900px 
+    "noticia1" 500px
+    "noticia2" 500px
+    "noticia3" 500px 
+    "Footer" 100px
+;
+}
+ }
+ h3{
+    
+ }
